@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/matter-js/0.14.2/matter.min.js"></script>
+        <link rel="stylesheet" href="app.css">
+        <link
+        rel="stylesheet"
+        href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.min.css"
+      />
+    </head>
+    <body>
+
+        <div id="timer">
+          <div class="controls hidden">
+            <input id="duration"/>
+          </div>
+        </div>
+
+        <div class="intro show">
+            <div class="row" id="intro">
+                <h1>Welcome</h1>
+                <p>Navigate the ball through the maze and reach the goal before the timer ends</p>
+                <p>Use keys:</p>
+                <p>W - Move ball up</p>
+                <p>S - Move ball down</p>
+                <p>A - Move ball left</p>
+                <p>D - Move ball right</p>
+                <button id="play">Play Now</button>
+            </div>
+        </div>
+        <div class="next hidden show">
+            <button id="next">Next Level</button>
+        </div>
+        <div class="complete hidden show">
+            <div class="row" id="complete">
+                <h1>Congratulations, you won!</h1>
+            </div>
+        </div>
+        <div class="lost hidden show">
+          <div class="row" id="lost">
+              <h1>You Lose</h1>
+              <button id="lose">Try Again?</button>
+          </div>
+      </div>
+        
+
+        <script src='timer.js'></script>
+        <script src="index.js"></script>
+    </body>
+</html>

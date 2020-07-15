@@ -1,0 +1,26 @@
+{
+  "name": "maze-game",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "express": "^4.17.1",
+    "matter-js": "^0.14.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
+  },
+  "scripts": {
+    "dev": "nodemon ./server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mushet-F/Maze-Game.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mushet-F/Maze-Game/issues"
+  },
+  "homepage": "https://github.com/Mushet-F/Maze-Game#readme"
+}

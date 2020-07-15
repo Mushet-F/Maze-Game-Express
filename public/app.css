@@ -1,0 +1,39 @@
+body {
+    margin: 0;
+}
+.hidden{
+    display: none !important;
+}
+h1 {
+    color: white;
+}
+p {
+    color: white;
+}
+.show {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    z-index: 1;
+    height: 100vh;
+    width: 100vw;
+}
+.row {
+    border: white;
+    border-style: solid;
+    background: gray;
+    padding-left: 2rem;
+    padding-right: 2rem;
+    padding-bottom: 2rem;
+}
+
+#timer {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 1rem;
+    width: 100%;
+    background: rgb(154, 240, 255);  
+    transition: all .1s ease-out;
+}
